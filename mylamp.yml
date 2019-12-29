@@ -1,0 +1,5 @@
+---
+- hosts: lampserver.com 
+  become: true
+  roles:
+  - lamp
